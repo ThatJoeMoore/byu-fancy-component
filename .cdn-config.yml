@@ -1,0 +1,12 @@
+---
+name: byu-fancy-component
+description: byu-fancy-component
+resources:
+  - src: dist/**
+    dest: ./
+entrypoints:
+  "byu-fancy-component.js": 'Examines browser support and downloads the appropriate component bundle'
+  "byu-fancy-component.min.js": 'Minified - Examines browser support and downloads the appropriate component bundle'
+  "byu-fancy-component.css": 'Main CSS file'
+  "byu-fancy-component.min.css": 'Main CSS file'
+docs: https://github.com/byuweb/byu-fancy-component
